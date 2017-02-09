@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Simple utility for changing object without mutate it.",
   "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/diruuu/immutee.git"
+  },
   "scripts": {
     "start": "node test.js",
     "test": "echo \"Error: no test specified\" && exit 1",

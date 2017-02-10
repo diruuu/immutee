@@ -1,5 +1,5 @@
 # immutee
-Simple utility for changing object using dot notation string without mutate it.
+Simple utility for changing object using dot notation string without mutate it in a chainable way.
 
 ## Install 
 `npm install immutee --save`

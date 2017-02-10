@@ -1,5 +1,5 @@
 # immutee
-Simple utility for changing object using dot notation string without mutate it in a chainable way.
+Simple utility for changing object using dot notation string in a chainable way without mutate it.
 
 ## Install 
 `npm install immutee --save`
@@ -142,7 +142,7 @@ Immutee(obj).delete('foo.0.bar').done();
 //=> {foo: [{}, 'white-unicorn', 'silver-unicorn']}
 ```
 
-### toggle
+### .toggle
 
 Toggle a boolean a value by a dot path.
 
@@ -153,7 +153,7 @@ var obj = {foo: { bar: true } };
 Immutee(obj).toggle('foo.bar').done();
 //=> {foo: { bar: false } }
 ```
-### merge
+### .merge
 
 Merge a value by a dot path.
 > The target value must be an object, array, null, or undefined.
